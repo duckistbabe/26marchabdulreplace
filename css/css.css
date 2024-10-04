@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'supermarketregular';
+    src: url('supermarket_0-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.con {
+    width: 100%;
+    background-color: #fff;
+    height: 700px;
+}
+
+.logo {
+    height: 50px;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.p {
+    text-align: center;
+    font-family: supermarketregular, Tahoma;
+    font-size: 18px;
+    clear: both;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.c a {
+    border-top: 1px solid #f7c497;
+    background: #c97e3c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#de702c), to(#c97e3c));
+    background: -webkit-linear-gradient(top, #de702c, #c97e3c);
+    background: -moz-linear-gradient(top, #de702c, #c97e3c);
+    background: -ms-linear-gradient(top, #de702c, #c97e3c);
+    background: -o-linear-gradient(top, #de702c, #c97e3c);
+    padding: 5px 15px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 40px;
+    font-family: supermarketregular, Tahoma;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.ok {
+    float: right;
+    width: 49%;
+    text-align: left;
+}
+
+.ok a {
+    border-top: 1px solid #ababab;
+    background: #b0b0b0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7a7a7a), to(#b0b0b0));
+    background: -webkit-linear-gradient(top, #7a7a7a, #b0b0b0);
+    background: -moz-linear-gradient(top, #7a7a7a, #b0b0b0);
+    background: -ms-linear-gradient(top, #7a7a7a, #b0b0b0);
+    background: -o-linear-gradient(top, #7a7a7a, #b0b0b0);
+}
+
+.confirm {
+    float: center;
+    width: 49%;
+    text-align: right;
+}
+
+.cancel {
+    float: left;
+    width: 49%;
+    text-align: right;
+}
+
+.sub {
+    float: center;
+    width: 98%;
+    text-align: center;
+}
+
+.htext {
+    height: 40px
+}
+
+span a {
+    font-family: supermarketregular, Tahoma;
+    font-size: 18px;
+    color: #06C;
+    text-decoration: none;
+}
